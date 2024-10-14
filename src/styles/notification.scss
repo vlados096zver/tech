@@ -1,0 +1,84 @@
+
+.notification {
+  position: fixed;
+  z-index: 10000;
+  width: 860px;
+  height: 60px;
+  padding: 10px;
+  border-radius: 4px;
+  left: calc(50% - 430px);
+  bottom: -80px;
+  max-width: calc(100% - 40px);
+  background: #FFFFFF;
+  box-shadow: 0 0 20px 4px rgba(0, 0, 0, 0.05);
+  justify-content: space-between;
+  align-items: center;
+  user-select: none;
+  transition: bottom 0.3s;
+  display: none;
+
+  &.prepare {
+    display: flex;
+  }
+
+  &.active {
+    transition: bottom 0.3s;
+    bottom: 20px;
+  }
+
+}
+
+.notification--left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notification--icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notification--close {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.notification--text {
+  font-size: 14px;
+  line-height: 20px;
+  color: #111827;
+}
+
+@media (max-width: 550px) {
+  .notification--left {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .notification--icon {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .notification--text {
+    text-align: center;
+  }
+  .notification {
+    bottom: -150px;
+    height: 150px;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 900px) {
+  .notification {
+    left: 20px;
+  }
+}

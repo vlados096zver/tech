@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&display=swap');
+
+.text-small {
+    font-size: 16px;
+}
+
+.text-small-xl {
+    font-size: 18px;
+}
+
+.text-medium {
+    font-size: 20px;
+}
+
+.text-large {
+    font-size: 24px;
+}
+
+.text-xlarge {
+    font-size: 32px;
+}
+
+.text-xxlarge {
+    font-size: 36px;
+}
+
+.text-xxxlarge {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 40px;
+    color: #222;
+    font-weight: 300;
+}
+
+h2,
+h1 {
+    font-size: 64px;
+    font-weight: 800;
+    color: #222;
+}
+
+
+@media (max-width: 1280px) {
+    .text-small {
+        font-size: 14px;
+    }
+
+    .text-small-xl {
+        font-size: 16px;
+    }
+
+    .text-medium {
+        font-size: 18px;
+    }
+
+    .text-large {
+        font-size: 20px;
+    }
+
+    .text-xlarge {
+        font-size: 26px;
+    }
+
+    .text-xxlarge {
+        font-size: 30px;
+    }
+
+    .text-xxxlarge {
+        font-size: 36px;
+    }
+
+    h3 {
+        font-size: 30px;
+        color: #222;
+        font-weight: 300;
+    }
+
+    h2,
+    h1 {
+        font-size: 40px;
+        font-weight: 800;
+        color: #222;
+    }
+
+}
+
+@media (max-width: 980px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+
+    .text-small-xl {
+        font-size: 14px;
+    }
+
+    .text-medium {
+        font-size: 16px;
+    }
+
+    .text-large {
+        font-size: 18px;
+    }
+
+    .text-xlarge {
+        font-size: 20px;
+    }
+
+    .text-xxlarge {
+        font-size: 24px;
+    }
+
+    .text-xxxlarge {
+        font-size: 28px;
+    }
+
+}

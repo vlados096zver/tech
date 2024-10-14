@@ -1,0 +1,219 @@
+header {
+    padding: 35px 0;
+    height: 120px;
+    position: sticky;
+    z-index: 22;
+    top: 0;
+    background-color: #fff;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo--header {
+    span {
+        color: #111827;
+    }
+}
+
+.header__controls {
+    display: flex;
+    align-items: center;
+    gap: 170px;
+}
+
+.header__nav-list {
+    display: flex;
+}
+
+.header__nav-item {
+    list-style: none;
+    height: 40px;
+    color: #111827;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    transform-style: preserve-3d;
+    position: relative;
+
+    &.active {
+        pointer-events: none;
+        & .header__nav-item-display {
+            transition: 0.3s;
+            transform: rotateX(-90deg) translateY(-20px);
+            transform-origin: top center;
+            background: rgba(242, 247, 245, 0.98);
+        }
+        & .header__nav-item-hover {
+            transition: 0.3s;
+            transform: rotateX(0deg) translateY(0);
+        }
+    }
+
+    &:hover {
+        cursor: pointer;
+        & .header__nav-item-display {
+            transition: 0.3s;
+            transform: rotateX(-90deg) translateY(-20px);
+            transform-origin: top center;
+            background: rgba(242, 247, 245, 0.98);
+        }
+        & .header__nav-item-hover {
+            transition: 0.3s;
+            transform: rotateX(0deg) translateY(0);
+        }
+    }
+
+    &-display {
+        color: #111827;
+        transform: rotateX(0deg) translateY(0px);
+    }
+
+    &-hover {
+        background: #00C677;
+        color: #FFF;
+        transform: rotateX(90deg) translateY(20px);
+        transform-origin: bottom center;
+    }
+
+    &-element {
+        font-size: 20px;
+        line-height: 20px;
+        padding: 10px 20px;
+        transition: 0.3s;
+        transform-style: preserve-3d;
+        position: absolute;
+        left: 0;
+        top: 0;
+        user-select: none;
+    }
+
+    &-width {
+        position: relative;
+        color: transparent;
+    }
+
+}
+
+.header__buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header__lang-btn {
+    color: #C7C7C7;
+    text-transform: uppercase;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+        transition: 0.3s;
+        opacity: 0.7;
+    }
+}
+
+.header__burger {
+    display: none;
+}
+
+@media (max-width: 1580px) {
+    .header__controls {
+        gap: 60px;
+    }
+}
+
+@media (max-width: 1440px) {
+    header {
+        height: 90px;
+    }
+
+    .header__controls {
+        display: none;
+
+        &--active {
+            position: fixed;
+            top: 90px;
+            left: 0;
+            height: calc(100vh - 90px);
+            background-color: #fff;
+            width: 100%;
+            z-index: 22;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 40px;
+
+            .header__nav-list {
+                flex-direction: column;
+            }
+        }
+    }
+
+    .header__buttons {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .header__nav-item {
+        margin: 10px auto;
+    }
+
+    .header__burger {
+
+        background-color: transparent;
+        border: none;
+
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3px;
+
+        div {
+            width: 14px;
+            height: 2px;
+            border-radius: 3px;
+            background-color: #000;
+            transition: transform 0.3s ease, opacity 0.3s ease;
+        }
+
+        &.header__burger--active {
+
+
+            div {
+                transition: transform 0.3s ease, opacity 0.3s ease;
+
+                &:nth-child(2) {
+                    transform: translateX(10px);
+                    opacity: 0;
+                }
+
+                &:first-child {
+                    transform: translateY(4px) rotate(-45deg);
+                }
+
+                &:last-child {
+                    transform: translateY(-6px) rotate(45deg);
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 330px) {
+
+    .header__controls {
+        padding: 40px 15px;
+    }
+}
