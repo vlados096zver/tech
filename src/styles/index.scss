@@ -88,9 +88,11 @@
 
 .banner {
     position: sticky;
-    top: 0;
+    top: 120px;
     z-index: 10;
-
+    @media (max-width: 1440px) {
+        top: 90px;
+    }    
     &__shadow {
         position: absolute;
         left: 0;
