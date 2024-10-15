@@ -10,7 +10,7 @@
 // hero
 
 .hero {
-    margin-top: 220px;
+    margin-top: 100px;
     height: 960px;
     background-image: url(../assets/img/hero/hero-background.svg);
     background-position: right bottom;
@@ -18,9 +18,6 @@
     position: relative;
     z-index: 11;
     background-color: #FFFFFF;
-    @media (max-width: 1440px) {
-        margin-top: 190px;  
-    }
 }
 
 .hero__container {
@@ -975,7 +972,7 @@
 
 @media (max-width: 980px) {
     .hero {
-        margin-top: 80px;
+        margin-top: 0px;
         padding: 50px 0 100px;
         height: auto;
     }
