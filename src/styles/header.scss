@@ -1,10 +1,17 @@
 header {
     padding: 35px 0;
     height: 120px;
-    position: sticky;
+    position: fixed;
     z-index: 22;
     top: 0;
+    width: 100%;    
     background-color: #fff;
+    &+main {
+        padding-top: 120px; 
+        @media (max-width: 1440px) {
+            padding-top: 90px;
+        }
+    }
 }
 
 .header__container {

@@ -455,3 +455,37 @@ function checkSectionInView() {
         addActiveClass(currentSection.id);
     }
 }
+
+let lastScrollTop = 0;
+
+window.addEventListener('scroll', function() {
+    const banner = document.querySelector('.banner');
+    const bannerImage = document.querySelector('.banner img');
+    const founder = document.querySelector('.founder');
+    const founderImage = document.querySelector('.founder img');
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+    function handleImagePosition(element, image) {
+        if (scrollTop > lastScrollTop) {
+            if (scrollTop > element.offsetTop) {
+                image.style.position = 'fixed';
+                image.style.top = '0';
+            }
+        } else {
+            image.style.position = 'absolute';
+            image.style.top = '0';
+        }
+    }
+
+    handleImagePosition(banner, bannerImage);
+    handleImagePosition(founder, founderImage);
+
+    lastScrollTop = scrollTop;
+});
+ 
+window.addEventListener("load", function () {
+  AOS.init({
+    duration: 500,
+  })
+})
+
