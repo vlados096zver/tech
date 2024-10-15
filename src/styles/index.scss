@@ -119,6 +119,12 @@
 
     .btn-animated {
         margin: 100px auto 0;
+        @media (max-width: 1023px) {
+            margin-top: 80px;   
+        }
+        @media (max-width: 767px) {
+            margin-top: 60px;   
+        }
     }
 
 }
@@ -322,7 +328,6 @@
     position: relative;
     cursor: pointer;
     transition: .4s;
-
     .services__content {
         height: 40%;
         overflow: hidden;
@@ -475,6 +480,12 @@
 
     .btn-animated {
         margin: 180px auto 0;
+        @media (max-width: 1023px) {
+            margin-top: 80px;   
+        }
+        @media (max-width: 767px) {
+            margin-top: 60px;   
+        }
     }
 }
 
@@ -1049,7 +1060,9 @@
 }
 
 @media (max-width: 720px) {
-
+    .hero {
+        padding-bottom: 50px;           
+    }
     // portfolio
     .portfolio__header {
         flex-direction: column;
