@@ -104,6 +104,14 @@
     "hero.subtitle.canada": "Разработаем сайт под ключ с высокой конверсией в <span>Канаде</span>.",
     "whyus.project.title.canada": "Более 100 успешных проектов в <span>Канаде</span>",
 
+    "hero.title.poland": "Разрабатываем сайты с высокой конверсией для рынка <span>Польши</span>.",
+    "hero.subtitle.poland": "Разработаем сайт под ключ с высокой конверсией в <span>Польше</span>.",
+    "whyus.project.title.poland": "Более 100 успешных проектов в <span>Польше</span>",
+
+    "hero.title.ukraine": "Разрабатываем сайты с высокой конверсией для рынка <span>Украины</span>.",
+    "hero.subtitle.ukraine": "Разработаем сайт под ключ с высокой конверсией в <span>Украине</span>.",
+    "whyus.project.title.ukraine": "Более 100 успешных проектов в <span>Украине</span>",
+
     "hero.scroll": "подробнее",
     "whyus.pretitle": "Почему мы?",
     "whyus.title": "Почувствуйте разницу",
@@ -140,7 +148,7 @@
     "services.seo.short.description": "Оптимизация для высоких позиций",
     "services.seo.full.description": "Наши специалисты обеспечат вашему сайту высокие позиции в поисковых системах с помощью качественной SEO-оптимизации. Мы настраиваем сайт так, чтобы он был удобен как для пользователей, так и для поисковых роботов.",
     "services.uiux.title": "UI/UX дизайн",
-    "services.uiux.price": "от <span class=\"text-large\">100 USD</span> с НДC",
+    "services.uiux.price": "от <span class=\"text-large\">1000 USD</span> с НДC",
     "services.uiux.short.description": "Интуитивные и стильные интерфейсы",
     "services.uiux.full.description": "Мы разрабатываем интерфейсы, которые делают взаимодействие с вашим сайтом интуитивно понятным и приятным. Каждый элемент дизайна прорабатывается с точки зрения удобства использования и эстетической привлекательности.",
     "founder.name": "Илья Маринец",

@@ -106,6 +106,14 @@
     "hero.subtitle.canada": "Wir entwickeln eine schlüsselfertige Website mit hoher Conversion in <span>Kanada</span>.",
     "whyus.project.title.canada": "Über 100 erfolgreiche Projekte in <span>Kanada</span>.",
 
+    "hero.title.poland": "Wir erstellen Websites mit hoher Conversion für den <span>polnischen</span> Markt.",
+    "hero.subtitle.poland": "Wir entwickeln eine schlüsselfertige Website mit hoher Conversion in <span>Polen</span>.",
+    "whyus.project.title.poland": "Über 100 erfolgreiche Projekte in <span>Polen</span>",
+
+    "hero.title.ukraine": "Wir erstellen Websites mit hoher Conversion für den <span>ukrainischen</span> Markt.",
+    "hero.subtitle.ukraine": "Wir entwickeln eine schlüsselfertige Website mit hoher Conversion in <span>der Ukraine</span>.",
+    "whyus.project.title.ukraine": "Über 100 erfolgreiche Projekte in <span>der Ukraine</span>",
+
     "hero.scroll": "mehr erfahren",
     "whyus.pretitle": "Warum wir?",
     "whyus.title": "Spüren Sie den Unterschied",
@@ -151,7 +159,7 @@
     "services.seo.full.description": "Unsere Spezialisten sorgen dafür, dass Ihre Website durch hochwertige SEO-Optimierung in Suchmaschinen hoch platziert wird. Wir konfigurieren die Seite so, dass sie sowohl benutzerfreundlich als auch für Suchmaschinen einfach zu indexieren ist.",
 
     "services.uiux.title": "UI/UX-Design",
-    "services.uiux.price": "ab <span class=\"text-large\">100 USD</span> inklusive MwSt",
+    "services.uiux.price": "ab <span class=\"text-large\">1000 USD</span> inklusive MwSt",
     "services.uiux.short.description": "Intuitive und stilvolle Benutzeroberflächen",
     "services.uiux.full.description": "Wir entwerfen Benutzeroberflächen, die die Interaktion mit Ihrer Website intuitiv und angenehm gestalten. Jedes Designelement wird unter Berücksichtigung von Benutzerfreundlichkeit und ästhetischem Reiz ausgearbeitet.",
 

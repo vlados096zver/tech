@@ -106,6 +106,14 @@
     "hero.subtitle.canada": "Розробимо сайт під ключ з високою конверсією у <span>Канаді</span>.",
     "whyus.project.title.canada": "Більше 100 успішних проектів у <span>Канаді</span>",
 
+    "hero.title.poland": "Розробляємо сайти з високою конверсією для ринку <span>Польщі</span>.",
+    "hero.subtitle.poland": "Розробимо сайт під ключ з високою конверсією в <span>Польщі</span>.",
+    "whyus.project.title.poland": "Більше 100 успішних проєктів у <span>Польщі</span>",
+
+    "hero.title.ukraine": "Розробляємо сайти з високою конверсією для ринку <span>України</span>.",
+    "hero.subtitle.ukraine": "Розробимо сайт під ключ з високою конверсією в <span>Україні</span>.",
+    "whyus.project.title.ukraine": "Більше 100 успішних проєктів в <span>Україні</span>",
+
     "hero.scroll": "детальніше",
     "whyus.pretitle": "Чому ми?",
     "whyus.title": "Відчуйте різницю",
@@ -151,7 +159,7 @@
     "services.seo.full.description": "Наші спеціалісти забезпечать вашому сайту високі позиції в пошукових системах за допомогою якісної SEO-оптимізації. Ми налаштовуємо сайт так, щоб він був зручним як для користувачів, так і для пошукових роботів.",
 
     "services.uiux.title": "UI/UX дизайн",
-    "services.uiux.price": "від <span class=\"text-large\">100 USD</span> з ПДВ",
+    "services.uiux.price": "від <span class=\"text-large\">1000 USD</span> з ПДВ",
     "services.uiux.short.description": "Інтуїтивні та стильні інтерфейси",
     "services.uiux.full.description": "Ми розробляємо інтерфейси, які роблять взаємодію з вашим сайтом інтуїтивно зрозумілою та приємною. Кожен елемент дизайну пропрацьовується з точки зору зручності використання та естетичної привабливості.",
 

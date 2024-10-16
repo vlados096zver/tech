@@ -106,7 +106,15 @@
     "hero.subtitle.canada": "We will develop a turnkey website with high conversion in <span>Canada</span>.",
     "whyus.project.title.canada": "Over 100 successful projects in <span>Canada</span>.",
 
-"hero.scroll": "learn more",
+    "hero.title.poland": "We create high-conversion websites for the <span>Polish</span> market.",
+    "hero.subtitle.poland": "We will develop a turnkey website with high conversion in <span>Poland</span>.",
+    "whyus.project.title.poland": "Over 100 successful projects in <span>Poland</span>",
+
+    "hero.title.ukraine": "We create high-conversion websites for the <span>Ukrainian</span> market.",
+    "hero.subtitle.ukraine": "We will develop a turnkey website with high conversion in <span>Ukraine</span>.",
+    "whyus.project.title.ukraine": "Over 100 successful projects in <span>Ukraine</span>",
+
+    "hero.scroll": "learn more",
     "whyus.pretitle": "Why Us?",
     "whyus.title": "Feel the Difference",
     "whyus.project.title": "Over 100 successful projects in <span>Canada</span>",
@@ -151,7 +159,7 @@
     "services.seo.full.description": "Our specialists will ensure your website ranks high in search engines through high-quality SEO optimization. We configure the site so that it is user-friendly and easily indexed by search engines.",
 
     "services.uiux.title": "UI/UX Design",
-    "services.uiux.price": "from <span class=\"text-large\">100 USD</span> including VAT",
+    "services.uiux.price": "from <span class=\"text-large\">1000 USD</span> including VAT",
     "services.uiux.short.description": "Intuitive and stylish interfaces",
     "services.uiux.full.description": "We design interfaces that make interacting with your website intuitive and enjoyable. Each design element is crafted with usability and aesthetic appeal in mind.",
 

@@ -106,6 +106,14 @@
     "hero.subtitle.canada": "Opracujemy stronę internetową pod klucz o wysokiej konwersji w <span>Kanadzie</span>.",
     "whyus.project.title.canada": "Ponad 100 udanych projektów w <span>Kanadzie</span>.",
 
+    "hero.title.poland": "Tworzymy strony internetowe o wysokiej konwersji dla rynku <span>Polski</span>.",
+    "hero.subtitle.poland": "Stworzymy stronę internetową o wysokiej konwersji w <span>Polsce</span>.",
+    "whyus.project.title.poland": "Ponad 100 udanych projektów w <span>Polsce</span>",
+
+    "hero.title.ukraine": "Tworzymy strony internetowe o wysokiej konwersji dla rynku <span>Ukrainy</span>.",
+    "hero.subtitle.ukraine": "Stworzymy stronę internetową o wysokiej konwersji w <span>Ukrainie</span>.",
+    "whyus.project.title.ukraine": "Ponad 100 udanych projektów w <span>Ukrainie</span>",
+
     "hero.scroll": "czytaj więcej",
     "whyus.pretitle": "Dlaczego my?",
     "whyus.title": "Poczuj różnicę",
@@ -151,7 +159,7 @@
     "services.seo.full.description": "Nasi specjaliści zapewnią Twojej stronie wysokie pozycje w wyszukiwarkach dzięki wysokiej jakości optymalizacji SEO. Konfigurujemy stronę tak, aby była przyjazna zarówno dla użytkowników, jak i dla wyszukiwarek.",
 
     "services.uiux.title": "Projektowanie UI/UX",
-    "services.uiux.price": "od <span class=\"text-large\">100 USD</span> z VAT",
+    "services.uiux.price": "od <span class=\"text-large\">1000 USD</span> z VAT",
     "services.uiux.short.description": "Intuicyjne i stylowe interfejsy",
     "services.uiux.full.description": "Projektujemy interfejsy, które sprawiają, że korzystanie z Twojej strony jest intuicyjne i przyjemne. Każdy element projektu jest dokładnie opracowany z myślą o wygodzie użytkowania i atrakcyjności estetycznej.",
 
