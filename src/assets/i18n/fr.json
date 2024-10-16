@@ -106,6 +106,14 @@
     "hero.subtitle.canada": "Nous concevons des sites web clé en main à haute conversion au <span>Canada</span>.",
     "whyus.project.title.canada": "Plus de 100 projets réussis au <span>Canada</span>.",
 
+    "hero.title.poland": "Nous créons des sites web à forte conversion pour le marché <span>polonais</span>.",
+    "hero.subtitle.poland": "Nous développerons un site web clé en main à forte conversion en <span>Pologne</span>.",
+    "whyus.project.title.poland": "Plus de 100 projets réussis en <span>Pologne</span>",
+
+    "hero.title.ukraine": "Nous créons des sites web à forte conversion pour le marché <span>ukrainien</span>.",
+    "hero.subtitle.ukraine": "Nous développerons un site web clé en main à forte conversion en <span>Ukraine</span>.",
+    "whyus.project.title.ukraine": "Plus de 100 projets réussis en <span>Ukraine</span>",
+
     "hero.scroll": "en savoir plus",
     "whyus.pretitle": "Pourquoi nous?",
     "whyus.title": "Ressentez la différence",
@@ -151,7 +159,7 @@
     "services.seo.full.description": "Nos spécialistes assureront à votre site web un excellent classement dans les moteurs de recherche grâce à une optimisation SEO de qualité. Nous configurons le site de manière à ce qu'il soit à la fois convivial pour les utilisateurs et facilement indexé par les moteurs de recherche.",
 
     "services.uiux.title": "Design UI/UX",
-    "services.uiux.price": "à partir de <span class=\"text-large\">100 USD</span> TTC",
+    "services.uiux.price": "à partir de <span class=\"text-large\">1000 USD</span> TTC",
     "services.uiux.short.description": "Interfaces intuitives et élégantes",
     "services.uiux.full.description": "Nous concevons des interfaces qui rendent l'interaction avec votre site web intuitive et agréable. Chaque élément de design est soigneusement conçu en tenant compte de la convivialité et de l'esthétique.",
 

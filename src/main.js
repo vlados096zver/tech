@@ -482,10 +482,3 @@ window.addEventListener('scroll', function() {
 
     lastScrollTop = scrollTop;
 });
- 
-window.addEventListener("load", function () {
-  AOS.init({
-    duration: 500,
-  })
-})
-

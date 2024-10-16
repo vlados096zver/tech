@@ -29,7 +29,9 @@ class TranslateService {
         EE: "estonia",
         UK: "uk",
         US: "usa",
-        CA: "canada"
+        CA: "canada",
+        PL: "poland",
+        UA: "ukraine"
     }
 
 
@@ -85,7 +87,9 @@ class TranslateService {
                 this.changeLanguage(this.defaultLanguage);
             }
         }
-
+        AOS.init({
+            duration: 500,
+        })
     }
 
     async getLocation() {

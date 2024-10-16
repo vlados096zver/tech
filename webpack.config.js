@@ -11,7 +11,7 @@ const devServer = (isDev) => !isDev ? {} : {
     }
 };
 
-module.exports = ({develop}) => ({
+module.exports = ({ develop }) => ({
     mode: develop ? 'development' : 'production',
     entry: {
         index: './src/index.js',
@@ -29,37 +29,37 @@ module.exports = ({develop}) => ({
             inject: 'body',  // Ensure scripts are injected into the body
         }),
         new MiniCssExtractPlugin({
-            filename: './styles/main.css'
+            filename: './styles/main.css',
         }),
         new CopyWebpackPlugin({
             patterns: [
-                { from: './src/assets/i18n', to: './assets/i18n' } // Копируем папку с файлами локализации
-            ]
-        })
+                { from: './src/assets/i18n', to: './assets/i18n' }, // Копируем папку с файлами локализации
+            ],
+        }),
     ],
     module: {
         rules: [
             {
                 test: /\.(?:ico|png|jpg|jpeg|svg)$/i,
-                type: 'asset/inline'
+                type: 'asset/inline',
             },
             {
                 test: /\.html$/i,
-                loader: 'html-loader'
+                loader: 'html-loader',
             },
             {
                 test: /\.css$/i, // This rule will handle regular CSS files
                 use: [
-                    MiniCssExtractPlugin.loader, 'css-loader'
-                ]
+                    MiniCssExtractPlugin.loader, 'css-loader',
+                ],
             },
             {
                 test: /\.scss$/i, // This rule will handle SCSS files
                 use: [
-                    MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'
-                ]
-            }
-        ]
+                    MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader',
+                ],
+            },
+        ],
     },
     ...devServer(develop),
 });

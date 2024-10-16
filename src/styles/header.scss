@@ -4,10 +4,10 @@ header {
     position: fixed;
     z-index: 22;
     top: 0;
-    width: 100%;    
+    width: 100%;
     background-color: #fff;
     &+main {
-        padding-top: 120px; 
+        padding-top: 120px;
         @media (max-width: 1440px) {
             padding-top: 90px;
         }
@@ -80,7 +80,7 @@ header {
     }
 
     &-hover {
-        background: #00C677;
+        background: #008753;
         color: #FFF;
         transform: rotateX(90deg) translateY(20px);
         transform-origin: bottom center;

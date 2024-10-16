@@ -49,51 +49,177 @@ body {
 
 .btn-animated {
     height: 50px;
-    border-radius: 25px;
-    background-color: transparent;
+    border-radius: 35px;
     overflow: hidden;
     cursor: pointer;
     display: block;
+    padding: 1px;
+    position: relative;
     text-decoration: none;
-
-    &.btn-primary--green {
-        border: 1px solid #00C677;
-        & .btn-animated__display {
-            color: #00C677;
-        }
-        & .btn-animated__hover {
+    &:hover {
+        .btn-animated--text {
             color: #FFFFFF;
-            background-color: #00C677;
+            transition: 0.3s;
+            svg {
+                fill: #FFFFFF;
+                transition: 0.3s ease-in-out;
+            }
+        }
+        .btn-animated--background-light:before {
+            margin-top: calc(24px - 50%);
+            left: 0;
+            padding: 50%;
+            transition: 0.3s ease-in-out;
         }
     }
-
-    &.btn-primary--white {
-        border: 1px solid #FFFFFF;
-        & .btn-animated__display {
-            color: #FFFFFF;
+    &--big {
+        height: 70px;
+        .btn-animated--text {
+            padding: 0 50px;
+            height: 68px;
+            gap: 16px;
+            svg {
+                height: 14px;
+                width: 14px;
+            }
         }
-        & .btn-animated__hover {
+        .btn-animated--background-light {
+            &:before {
+                margin-top: 34px;
+
+            }
+        }
+        &:hover {
+            .btn-animated--background-light:before {
+                margin-top: calc(34px - 50%);
+            }
+        }
+    }
+    &--green {
+        &:hover {
+            .btn-animated--text {
+                color: #008753;
+                svg {
+                    fill: #008753;
+                }
+            }
+        }
+        .btn-animated--text {
+            color: #FFFFFF;
+            svg {
+                fill: #FFFFFF;
+            }
+        }
+        .btn-animated--background-light {
+            background: #008753;
+            &:before {
+                background: #FFFFFF;
+            }
+        }
+    }
+    &--white {
+        &:hover {
+            .btn-animated--text {
+                color: #FFFFFF;
+                svg {
+                    fill: #FFFFFF;
+                }
+            }
+        }
+        .btn-animated--text {
             color: #111827;
-            background-color: #FFFFFF;
+            svg {
+                fill: #111827;
+            }
+        }
+        .btn-animated--background-light {
+            background: #FFFFFF;
         }
     }
+    &--centered {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &--background-light {
+        background: #FFFFFF;
+        width: calc(100% - 2px);
+        height: calc(100% - 2px);
+        position: absolute;
+        left: 1px;
+        top: 1px;
+        border-radius: 35px;
+        z-index: 99;
+        overflow: hidden;
+        &:before {
+            content: "";
+            position: absolute;
+            left: 50%;
+            top: 0;
+            margin-top: 24px;
+            transition: 0.3s ease-in-out;
+            background: #00C677;
+            border-radius: 50%;
+        }
+    }
+    &--background-dark {
+        background: #008753;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 98;
 
-    &__content {
+        &:before,
+        &:after {
+            background: #1ce793;
+            content: "";
+            height: 155px;
+            width: 50px;
+            position: absolute;
+            transform: rotate(35deg);
+            z-index: -10;
+            top: -50px;
+            left: -75px;
+        }
+
+        &:after {
+            animation: animation-lights 2s linear infinite;
+        }
+
+        &:before {
+            animation: animation-lights 4s linear infinite;
+        }
+    }
+    &--text {
         padding: 0 40px;
-        white-space: nowrap;
+        cursor: pointer;
+        height: 48px;
+        text-decoration: none;
+        gap: 12px;
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 12px;
-        height: 48px;
-        width: 100%;
-        transition: margin-top 0.3s;
-    }
-    &:hover {
-        & .btn-animated__display {
-            margin-top: -48px;
-            transition: 0.3s;
+        color: #008753;
+        background: transparent;
+        position: relative;
+        z-index: 100;
+        border-radius: 25px;
+        transition: 0.3s ease-in-out;
+        svg {
+            fill: #008753;
+            transition: 0.3s ease-in-out;
         }
+    }
+}
+
+@keyframes animation-lights {
+    0% {
+        left: -75px;
+    }
+    100% {
+        left: 120%;
     }
 }
 
@@ -108,10 +234,10 @@ body {
     cursor: pointer;
 
     &.btn-primary--green {
-        border: 1px solid #00C677;
+        border: 1px solid #008753;
 
         span {
-            color: #00C677;
+            color: #008753;
         }
     }
 
@@ -158,7 +284,7 @@ body {
     }
 
     .pretitle {
-        color: #00C677;
+        color: #008753;
         margin-bottom: 16px;
     }
 
@@ -244,7 +370,7 @@ body {
     font-weight: 300;
 
     span {
-        color: #00C677;
+        color: #008753;
         font-weight: 900;
     }
 }
@@ -273,14 +399,14 @@ body {
 }
 
 @keyframes blink-animation {
-
-    0%,
-    100% {
-        opacity: 1;
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(30px);
     }
-
-    50% {
-        opacity: 0;
+    40% {
+        transform: translateY(0px);
+    }
+    60% {
+        transform: translateY(15px);
     }
 }
 
