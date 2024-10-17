@@ -21,8 +21,13 @@ header {
 }
 
 .logo--header {
+    max-width: 224px;
     span {
         color: #111827;
+    }
+    img {
+        display: block;
+        max-width: 100%;
     }
 }
 
@@ -134,7 +139,15 @@ header {
     }
 }
 
-@media (max-width: 1440px) {
+
+@media (max-width: 1520px) {
+    .header__nav-item-element {
+        font-size: 18px;
+        padding: 10px 16px;
+    }
+}
+
+@media (max-width: 1350px) {
     header {
         height: 90px;
     }
