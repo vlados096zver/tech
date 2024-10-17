@@ -272,6 +272,19 @@ body {
     }
 }
 
+.text-send {
+    display: none;
+    &.active {
+        display: flex;
+    }
+}
+
+.text-next {
+    &.hide {
+        display: none;
+    }
+}
+
 .section-header {
     text-align: center;
     display: flex;

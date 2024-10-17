@@ -69,9 +69,12 @@
     top: 100px;
     cursor: pointer;
 
-    img {
+    svg {
         width: 90px;
         height: 90px;
+        path {
+            fill: #00C677;
+        }
     }
 }
 
@@ -80,6 +83,7 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
+    padding: 0 20px;
 
     .btn-primary {
         margin: 0;
@@ -151,9 +155,14 @@
         right: 20px;
         top: 20px;
 
-        img {
-            width: 30px;
-            height: 30px;
+        svg {
+            width: 40px;
+            height: 40px;
+            path {
+                &:first-child {
+                    fill: #fff;
+                }
+            }
         }
     }
 
@@ -162,7 +171,7 @@
     }
 
     .modal-inner {
-        padding: 50px 0;
+        padding: 60px 0;
     }
 
 }

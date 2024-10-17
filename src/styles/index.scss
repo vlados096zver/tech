@@ -1012,6 +1012,9 @@
             line-height: 56px;
         }
     }
+    .services__content-bottom {
+        height: 21px;
+    }
 }
 
 @media (max-width: 980px) {
@@ -1162,7 +1165,28 @@
 
 @media (max-width: 400px) {
     .work-process .btn-animated--text {
-        padding: 0 20px;
+        padding: 0 18px;
     }
 
+}
+
+@media (max-width: 360px) {
+    .btn-animated--big .btn-animated--text,
+    .btn-animated--text {
+        padding: 0 20px;
+    }
+    .work-process__item {
+        gap: 20px;
+        svg {
+            display: none;
+        }
+    }
+
+    .aim {
+        .btn-animated--text {
+            svg {
+                display: none;
+            }
+        }
+    }
 }

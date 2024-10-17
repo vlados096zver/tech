@@ -368,7 +368,10 @@ closeModal(modalBtnClose)
 
 let formCalcItem = document.querySelectorAll('.form-calc .form-block'),
     formCalcbtn = document.querySelector('.form-calc .btn-primary.btn-primary--green'),
-    formCalcBack = document.querySelector('.form-calc .btn-primary.btn-primary--disabled');
+    formCalcBack = document.querySelector('.form-calc .btn-primary.btn-primary--disabled'),
+    textNext = document.querySelector('.text-next'),
+    textSend = document.querySelector('.text-send'),
+    finalStep = document.querySelector('.final-step');
 
 
 let step = 0;
@@ -401,6 +404,14 @@ formCalcbtn.addEventListener('click', () => {
     } else {
         formCalcbtn.type = 'submit';
     }
+    changeStateBtn();
+});
+
+document.querySelectorAll('.second-step .form-block__radio').forEach(radio => {
+    radio.addEventListener('click', () => {
+        console.log('clicl');
+        formCalcbtn.click();
+    });
 });
 
 formCalcBack.addEventListener('click', () => {
@@ -408,9 +419,22 @@ formCalcBack.addEventListener('click', () => {
         step--;
         hidenFormCalcItem()
         showFormCalcItem(step)
-        checkBtn(step)
+        checkBtn(step);
+        changeStateBtn();
     }
 });
+
+function changeStateBtn() {
+    if (finalStep && textSend) {
+        if (finalStep.style.display === 'block' &&  step == formCalcItem.length - 1) {
+            textNext.classList.add('hide');
+            textSend.classList.add('active');
+        } else {
+            textNext.classList.remove('hide');
+            textSend.classList.remove('active');
+        }
+    }
+}
 
 
 hidenFormCalcItem();
